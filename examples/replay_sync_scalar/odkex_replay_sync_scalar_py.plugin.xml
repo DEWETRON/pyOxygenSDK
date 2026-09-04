@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<OxygenPlugin name="ODKEX_REPLAY_SYNC_SCALAR_PY" version="0.1" uuid="DBF5E498-FE28-476A-87F1-693E2DA369E2">
+  <Info name="Python: ODKEX_REPLAY_SYNC_SCALAR_PY Plugin"/>
+  <Host minimum_version="8.1"/>
+  <UsesUIExtensions/>
+  <External>
+    <Start
+        command="python.exe"
+        arguments="<path_to_script_folder>\odkex_replay_sync_scalar.py #{PluginServerEndpoint}"
+        working_dir="<path_to_script_folder>"
+        show_window="true"
+        handshakeTimeout="5s">
+    </Start>
+  </External>
+</OxygenPlugin>
